@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Finlandica+Text:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Finlandica Text", sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    font-family: "Finlandica Text", sans-serif;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 13px 20px;
+    box-shadow: 10px 10px 30px 5px #f0f0f0ff;
+}
+
+ul{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+h3 {
+    width: 30%;
+    font-size: 28px;
+    color: #FD7539;
+}
+nav p{
+    width: 30%;
+    text-align: right;
+}
+
+nav ul li a {
+    color: black;
+}
+
+nav ul li a:hover {
+    color: #FD7539;
+}
+
+
+.hero {
+    width: 100%;
+    height: 90vh;
+    padding: 0 100px;
+    overflow: hidden;
+}
+
+.heroContent {
+    width: 50%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    align-content: center;
+    text-align: start;
+}
+.heroContent a{
+    display: inline-block;
+}
+
+.heroContent h2 {
+    text-transform: capitalize;
+    font-size: 40px;
+    line-height: 60px;
+}
+
+.heroContent h2 span {
+    color: #FD7539;
+}
+
+.heroContent p {
+    padding-top: 10px;
+    color: gray;
+    line-height: 25px;
+}
+
+button {
+    padding: 14px 50px;
+    background-color: #FD7539;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.heroImg {
+    width: 40%;
+    height: 100%;
+    float: right;
+    text-align: right;
+    align-content: center;
+}
+
+.heroImg img {
+    width: 100%;
+}
+
+@media(max-width:768px) {
+    nav ul {
+        display: none;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .hero {
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .heroContent {
+        width: 100%;
+    }
+
+    .heroImg {
+        width: 100%;
+
+    }
+
+}
+
+@media(max-width:425px) {
+    .hero {
+        padding: 20px;
+    }
+
+    .heroContent h2 {
+        text-transform: capitalize;
+        font-size: 1.8rem;
+        line-height: 2rem;
+    }
+}
+
+/* Contact section CSS */
+.container {
+    min-height: 100vh;
+    padding: 0 10%;
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+    background-color: #CFDEDF;
+}
+
+/* Left side Image section start */
+.left {
+    flex-basis: 50%;
+}
+
+.left img {
+    width: 100%;
+    max-height: 80vh;
+    object-fit: cover;
+}
+
+/* Left side Image section end */
+
+/* Right Side form section Start */
+.right {
+    flex-basis: 50%;
+    text-align: center;
+}
+
+/* Form Heading  */
+.welcome {
+    font-size: 2.1rem;
+    line-height: 3rem;
+    font-weight: 600;
+    text-align: center;
+    display: block;
+}
+
+.para {
+    font-size: 1rem;
+}
+
+/* Form */
+form {
+    margin-top: 30px;
+}
+
+/* Form div for label and input tags */
+.right form div {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    /* border: 1px solid red; */
+    margin-bottom: 20px;
+}
+
+.right div label {
+    font-size: 1rem;
+    margin-bottom: 7px;
+}
+
+.right div input {
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 10px;
+}
+
+/* For got password Link */
+.forgot {
+    align-self: flex-end;
+    margin-top: 6px;
+    font-size: .9rem;
+}
+
+button {
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    background: #5fbff6;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    transition: all 0.5s;
+}
+
+button:hover {
+    background-color: #4ab8f8;
+}
+
+/* Register link */
+.register {
+    margin-top: 30px;
+    font-size: .8rem;
+}
+
+@media(max-width:768px) {
+    .container {
+        flex-direction: column;
+        padding: 30px;
+    }
+
+    .left {
+        width: 100%;
+    }
+
+    .right {
+        width: 100%;
+    }
+
+}
+
+@media(max-width:425px) {
+    .container {
+        padding: 20px;
+    }
+
+    .left {
+        flex-basis: 100%;
+        order: 1;
+    }
+}
