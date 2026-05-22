@@ -40,16 +40,13 @@ This project was created to practice:
 
 ---
 
-# Folder Structure
-
-
 # How to Run the Project
 
 ## Step 1: Download the Project
 
 Download or clone the project files into your computer.
 
-git clone your-repository-link
+git clone https://github.com/GIYASAHMED/responsiveLaundry
 
 OR
 
@@ -129,7 +126,7 @@ Possible future enhancements:
 
 # Author
 
-Developed by Giyas Ahmed
+Developed by Giyas Ahmed ❤️
 
 ---
 
