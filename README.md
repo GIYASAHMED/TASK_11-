@@ -29,6 +29,7 @@ This project was created to practice:
 - Google Fonts integration
 - remix icon integration for Icons
 - Pure CSS styling
+- Animation using CSS
 - Beginner-friendly code structure
 
 ---
@@ -48,7 +49,7 @@ This project was created to practice:
 
 Download or clone the project files into your computer.
 
-git clone https://github.com/GIYASAHMED/TASK_8.git
+git clone ttps://github.com/GIYASAHMED/TASK_9.git
 
 OR
 
@@ -96,7 +97,7 @@ The hero section contains:
 - Introductory website content
 - Promotional text
 - Laundry-related image aligned to the right side
-- One button to go Contact us page
+- One button to go Contact us page with animation
 
 ---
 
@@ -118,6 +119,7 @@ This project helped in understanding:
 - CSS percentage rem spacing and sizing
 - Psudo class implementing 
 - Hero section creation
+- CSS animation using Scale, Rotate
 - Contact us Form creation
 - Raw CSS layout structuring
 - Responsive layouts for all devices
@@ -127,7 +129,6 @@ This project helped in understanding:
 # Future Improvements
 
 Possible future enhancements:
-- Animation effects
 - Service cards section
 - Footer section
 - JavaScript functionality
