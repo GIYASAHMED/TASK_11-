@@ -32,8 +32,15 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 13px 20px;
-    box-shadow: 10px 10px 30px 5px #f0f0f0ff;
+    box-shadow: 10px 10px 30px 5px var(--backgroundColor);
     z-index: 9999;
+}
+
+
+
+h3 {
+    font-size: 1.8rem;
+    color: var(--secondaryTextColor);
 }
 
 ul {
@@ -42,8 +49,12 @@ ul {
     justify-content: space-between;
 }
 
-h3 {
-    font-size: 1.8rem;
+nav ul li a {
+    color: var(--primaryTextColor);
+    transition: 0.5s ease;
+}
+
+nav ul li a:hover {
     color: var(--secondaryTextColor);
 }
 
@@ -55,11 +66,7 @@ nav p {
     border-radius: 5px;
 }
 
-nav ul li a {
-    color: var(--primaryTextColor);
-    transition: 0.5s ease;
-}
-
+/* ================== Hamburger Menu ================= */
 .ham {
     width: 50px;
     margin-top: 0;
@@ -72,16 +79,6 @@ nav ul li a {
 
 .ham:focus+.menu {
     display: flex;
-}
-
-nav ul li a:hover {
-    color: var(--secondaryTextColor);
-}
-
-/* Mobile menu */
-main {
-    background-color: var(--backgroundColor);
-    position: relative;
 }
 
 .menu {
@@ -110,6 +107,13 @@ main {
     color: var(--buttonTextColor);
 }
 
+/* ================== Navbar and Hamburger Menu end ================= */
+
+/* ================== Main section start ================= */
+main {
+    background-color: var(--backgroundColor);
+    position: relative;
+}
 
 .hero {
     width: 100%;
@@ -164,6 +168,9 @@ button {
     width: 100%;
 }
 
+/* ================== Main section end ================= */
+
+/* ================== landing page media query start ================= */
 @media(max-width : 997px) {
     .heroContent h2 {
         font-size: 2.6rem;
@@ -209,7 +216,6 @@ button {
 
     .hero {
         height: 100vh;
-        /* background-color: red; */
         padding: 30px;
         flex-direction: column;
     }
@@ -238,7 +244,7 @@ button {
 @media(max-width:430px) {
     .hero {
         flex-direction: column;
-        padding: 20px;
+        padding: 30px 20px 10px 20px;
     }
 
     .heroContent {
@@ -254,11 +260,9 @@ button {
     }
 }
 
-/* ====================
+/* ================== landing page media query end ================= */
 
-Contact section CSS 
-
-========================*/
+/* ================== Contact us page start ================= */
 .container {
     min-height: 100vh;
     padding: 0 10%;
@@ -269,7 +273,8 @@ Contact section CSS
     background-color: var(--backgroundColor);
 }
 
-/* Left side Image section start */
+
+/* ================== Contact us page left side image div start ================= */
 .left {
     flex-basis: 50%;
 }
@@ -279,16 +284,15 @@ Contact section CSS
     max-height: 80vh;
     object-fit: cover;
 }
+/* ================== Contact us page left side image div end ================= */
 
-/* Left side Image section end */
+/* ================== Contact us page right side div start ================= */
 
-/* Right Side form section Start */
 .right {
     flex-basis: 50%;
     text-align: center;
 }
 
-/* Form Heading  */
 .welcome {
     font-size: 2.1rem;
     line-height: 3rem;
@@ -302,12 +306,12 @@ Contact section CSS
     color: var(--paragraphColor);
 }
 
-/* Form */
+/* ================== Contact us page right side div form start ================= */
 form {
     margin-top: 30px;
 }
 
-/* Form div for label and input tags */
+/* ================== Form div  ================= */
 .right form div {
     display: flex;
     flex-direction: column;
@@ -315,13 +319,13 @@ form {
     margin-bottom: 20px;
 }
 
-.right div label {
+.right form div label {
     font-size: 1rem;
     margin-bottom: 7px;
     color: var(--primaryTextColor);
 }
 
-.right div input {
+.right form div input {
     width: 100%;
     height: 40px;
     border-radius: 5px;
@@ -330,13 +334,14 @@ form {
     padding: 10px;
 }
 
-/* For got password Link */
+/* ================== Formgot password text ================= */
 .forgot {
     align-self: flex-end;
     margin-top: 6px;
     font-size: .9rem;
 }
 
+/* ================== Login button ================= */
 button {
     width: 100%;
     border-radius: 5px;
@@ -351,13 +356,14 @@ button:hover {
     background-color: #4ab8f8;
 }
 
-/* Register link */
+/* ================== New register text ================= */
 .register {
     margin-top: 30px;
     font-size: .8rem;
     color: var(--paragraphColor);
 }
 
+/* ================== Contact us page media query start ================= */
 @media(max-width:768px) {
     .container {
         flex-direction: column;
@@ -384,3 +390,4 @@ button:hover {
         order: 1;
     }
 }
+/* ================== Contact us page media query end ================= */

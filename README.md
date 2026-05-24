@@ -1,23 +1,23 @@
-# Laundry Website Project
+# Laundry Website Project Task no 8
 
 ## Project Overview
 
 This project is a simple and modern Laundry Service Website UI built using HTML5 and raw CSS3.
 
 The website includes:
-- Responsive Navigation Bar
-- Hero Section
-- Contact us section
+- Responsive Navigation Bar with hamburger icon
+- Hero Section page
+- Contact us section page
 - Clean Landing Page Layout
 - Modern UI Design
 
 This project was created to practice:
 - Website layout structuring
 - CSS positioning
-- Float-based layouts
 - Flex based layouts
 - Navigation alignment
 - UI design without frameworks
+- Responsive layouts
 
 ---
 
@@ -27,6 +27,7 @@ This project was created to practice:
 - Custom navigation bar
 - Hero section / Contact us section with image alignment
 - Google Fonts integration
+- remix icon integration for Icons
 - Pure CSS styling
 - Beginner-friendly code structure
 
@@ -37,6 +38,7 @@ This project was created to practice:
 - HTML5
 - CSS3
 - Google Fonts
+- Remix Icons
 
 ---
 
@@ -46,7 +48,7 @@ This project was created to practice:
 
 Download or clone the project files into your computer.
 
-git clone https://github.com/GIYASAHMED/responsiveLaundry
+git clone https://github.com/GIYASAHMED/TASK_8.git
 
 OR
 
@@ -82,6 +84,7 @@ The navigation bar contains:
 - Services
 - About Us
 - Contact Us
+- One Hamburger menu for diff screen sizes, user easily click and see Navigation menu items
 
 Users can navigate through different sections using the top menu.
 
@@ -97,15 +100,23 @@ The hero section contains:
 
 ---
 
+## Contact us Section/page
+
+The contact section contains:
+- Laundry-related image aligned to the left side
+- One form aligned to the right side
+- One button to login Contact us page
+
+---
+
 
 # Learning Objectives
 
 This project helped in understanding:
-- Inline-block layouts
-- Float positioning
 - Flex structure
 - Navigation alignment
-- CSS spacing and sizing
+- CSS percentage rem spacing and sizing
+- Psudo class implementing 
 - Hero section creation
 - Contact us Form creation
 - Raw CSS layout structuring
@@ -116,7 +127,6 @@ This project helped in understanding:
 # Future Improvements
 
 Possible future enhancements:
-- Hamburger menu
 - Animation effects
 - Service cards section
 - Footer section
