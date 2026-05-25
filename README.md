@@ -6,7 +6,7 @@ This project is a simple and modern Laundry Service Website UI built using HTML5
 
 The website includes:
 - Responsive Navigation Bar with hamburger icon
-- Hero Section page
+- Hero Section page with animation
 - Contact us section page
 - Clean Landing Page Layout
 - Modern UI Design
@@ -25,6 +25,7 @@ This project was created to practice:
 
 - Clean and modern user interface
 - Custom navigation bar
+- Using focus Sudo element onfocus hamburger menu mobile menu is open
 - Hero section / Contact us section with image alignment
 - Google Fonts integration
 - remix icon integration for Icons
@@ -117,7 +118,7 @@ This project helped in understanding:
 - Flex structure
 - Navigation alignment
 - CSS percentage rem spacing and sizing
-- Psudo class implementing 
+- Psudo class implementing, Diff between + and ~ (How code is work between child and siblings)
 - Hero section creation
 - CSS animation using Scale, Rotate
 - Contact us Form creation
