@@ -20,7 +20,7 @@ body {
     --lightcolor: #AEB8BC;
     --paragraphcolor: #666;
     --backgroundcolor: #F9F9F9;
-    --shadow: 0 2px 10px #AEB8BC;
+    /* --shadow: 0 2px 10px #AEB8BC; */
     --headingFont: "DM Sans", sans-serif;
     --subheading: "Heebo", sans-serif;
 }
