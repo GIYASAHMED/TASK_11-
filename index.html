@@ -4,51 +4,114 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Laundry</title>
+    <title>Nike | Just Do It</title>
     <link rel="stylesheet" href="style.css">
-    <!-- Remix icon CDN link -->
+    <link rel="shortcut icon" href="./favicon.svg" type="image/x-icon">
+    <!-- Remix Icon CDN -->
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css" rel="stylesheet" />
 </head>
 
 <body>
-    <nav>
-        <h3>Logo</h3>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Contact Us</a></li>
-        </ul>
-        <p>Username</p>
-        <button class="ham">
-            <i class="ri-menu-line"></i>
-        </button>
-        
-        <div class="menu">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Contact us</a></li>
-            </ul>
-        </div>
-    </nav>
-    <main>
-        
-        <div class="hero">
-            <div class="heroContent heroBox">
-                <h2>Revitalize your <br> clothes with expert <br> <span>laundry services!</span></h2>
-                <p>From premium dry cleanig to swift wash and fold, we deliver care and convenience. Schedule a pickup
-                    and rediscover the freshness of your clothes today!
-                    <p />
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <a href="#">
+                    <div class="logo">
+                        <img src="./images/logo.png" alt="Nike logo">
+                        <span>Just Do It.</span>
+                    </div>
+                </a>
 
-                    <a href="contact.html"><button>Book a service today!</button></a>
-            </div>
-            <div class="heroImg heroBox">
-                <img src="./images/laundry.webp" alt="Lundry Image">
-            </div>
+
+                <ul class="menu">
+                    <a href="#home">
+                        <li>Home</li>
+                    </a>
+                    <a href="#about">
+                        <li>About</li>
+                    </a>
+                    <a href="#brands">
+                        <li>Brands</li>
+                    </a>
+                    <a href="#more">
+                        <li>More</li>
+                    </a>
+                    <a href="#contact">
+                        <li>Contact</li>
+                    </a>
+                </ul>
+
+
+                <div class="search-cart-profile">
+                    <div><i class="ri-search-line"></i>
+                        <input type="search" name="search" placeholder="Search">
+                    </div>
+                    <div> <i class="ri-shopping-bag-line cart"></i>
+                        <span>0</span>
+                    </div>
+                    <img class="profile" src="./images/profile.avif" alt="profileImage">
+                    <div class="mobilemenu">
+                        <i class="ri-more-2-fill"></i>
+                    </div>
+                </div>
+
+
+            </nav>
         </div>
-        
+    </header>
+
+    <main>
+        <section id="hero" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="heroText">
+                        <h2 class="title">same workhorse. <br> new <span>wings.</span> </h2>
+                        <p class="subTitle">Get inside the mind—and under the feet—of Ethan Strand and Pegasus 42.</p>
+                        <a href="product.html">
+                            <button class="btn btn-primary">Shop Now</button>
+                        </a>
+                    </div>
+                    <div class="heroImg">
+                        <img src="./images/testhero.png" alt="nikeshoe">
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section class="service-overview">
+            <div class="container">
+                <div class="services">
+                    <div class="service">
+                        <img src="./images/reviews.svg" alt="">
+                        <div class="service-text">
+                            <h3>2k+</h3>
+                            <p>Reviews</p>
+                        </div>
+                    </div>
+                    <div class="service">
+                        <img src="./images/customers.svg" alt="">
+                        <div class="service-text">
+                            <h3>30k+</h3>
+                            <p>Customers</p>
+                        </div>
+                    </div>
+                    <div class="service">
+                        <img src="./images/quality.svg" alt="">
+                        <div class="service-text">
+                            <h3>High</h3>
+                            <p>Quality</p>
+                        </div>
+                    </div>
+                    <div class="service">
+                        <img src="./images/rating.svg" alt="">
+                        <div class="service-text">
+                            <h3>4.5/5</h3>
+                            <p>Rating</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 </body>
 

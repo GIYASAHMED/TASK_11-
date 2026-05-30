@@ -1,0 +1,5 @@
+primary color #28333A
+secondary color #FFA239
+Third color #2378FF
+paragraph color #AEB8BC
+backgroundcolor #F9F9F9
