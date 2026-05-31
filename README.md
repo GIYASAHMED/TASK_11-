@@ -1,7 +1,14 @@
 # Shoe Shopping Project Task no 11
 
 <img width="1440" height="813" alt="Screenshot 2026-05-31 at 12 15 00 PM" src="https://github.com/user-attachments/assets/b2381299-b0d8-4319-9ea9-f83f28a92e94" />
-<img src="./images/shot1.png"/>
+
+<img width="1440" height="813" alt="shot2" src="https://github.com/user-attachments/assets/ce9f0ee8-ba41-4e8b-8e3f-10711c745dfd" />
+
+<img width="1440" height="812" alt="shot3" src="https://github.com/user-attachments/assets/e5f50be6-7f6c-4e28-9d04-e280628f3e09" />
+
+<img width="1440" height="813" alt="shot4" src="https://github.com/user-attachments/assets/29a12883-174a-4669-a135-8d2cdfa53313" />
+
+
 
 ## Project Overview
 
