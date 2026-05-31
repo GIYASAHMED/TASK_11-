@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Payment Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Remix Icon CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <section class="paymentPage" id="paymentPage">
+        <div class="container">
+          <div class="paymentWrapper">
+            <div class="leftContent">
+              <p>Checkout</p>
+              <h3>Contact details</h3>
+              <form action="" class="paymentpageForm">
+                <label for="Email">Email Id</label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="example@gmail.com"
+                />
+              </form>
+              <h3>Payment</h3>
+              <div class="paymentOption">
+                <div class="paymentCategory">
+                  <div class="paymentBox">
+                    <i class="ri-bank-card-line"></i>
+                    <span>Card</span>
+                  </div>
+                  <div class="paymentBox">
+                    <i class="ri-btc-line"></i>
+                    <span>Crypto</span>
+                  </div>
+                  <div class="paymentBox">
+                    <i class="ri-bank-line"></i>
+                    <span>Bank</span>
+                  </div>
+                  <div class="paymentBox">
+                    <i class="ri-more-2-line"></i>
+                  </div>
+                </div>
+
+                <div class="cardDetails">
+                  <form action="">
+                    <div class="c cnumber">
+                      <label for="">Card Number</label>
+                      <input type="text" />
+                    </div>
+
+                    <div class="c expiry">
+                      <div>
+                        <label for="">Expairy</label>
+                        <input type="text" />
+                      </div>
+                      <div>
+                        <label for="">CVV</label>
+                        <input type="text" />
+                      </div>
+                    </div>
+
+                    <div class="c country">
+                      <div>
+                        <label for="">Country</label>
+                        <input type="text" />
+                      </div>
+                      <div>
+                        <label for="">Zip</label>
+                        <input type="text" />
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+
+            <!-- Right part summary Action -->
+            <div class="rightContent">
+              <h2 class="paymentPageTitle">Order Summary</h2>
+              <div class="total summaryTotal">
+                <div class="totalwraper">
+                  <div class="coupon">
+                    <input
+                      type="text"
+                      name="coupon"
+                      id="coupon"
+                      placeholder="COUPON CODE"
+                    />
+                    <button class="btn couponBtn">Apply Coupon</button>
+                  </div>
+                  <div class="subTotal">
+                    <div class="subtotalBox">
+                      <p>Sub Total</p>
+                      <p>₹19,200</p>
+                    </div>
+                    <div class="subtotalBox">
+                      <p>Taxes(if applicable)</p>
+                      <p>₹3,456</p>
+                    </div>
+                    <div class="subtotalBox">
+                      <p>Discount</p>
+                      <p>₹0</p>
+                    </div>
+                    <div class="subtotalBox">
+                      <h4>Total</h4>
+                      <h4>₹22,656</h4>
+                    </div>
+                  </div>
+                </div>
+                <a href=""
+                  ><button class="btn btn-secondary payNowBtn">
+                    Pay Now ₹22,656
+                  </button></a
+                >
+
+                <div class="paymentLinks">
+                  <img
+                    src="https://static.vecteezy.com/system/resources/previews/029/899/733/non_2x/secure-payment-credit-card-icon-with-shield-secure-transaction-stock-illustration-vector.jpg"
+                    alt=""
+                  />
+                  <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/8/89/Razorpay_logo.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
+                    alt=""
+                  />
+                  <img
+                    src="https://cdn.vectorstock.com/i/500p/33/79/100-secure-grunge-badge-with-a-check-mark-label-vector-51493379.jpg"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
