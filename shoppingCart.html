@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nike | Just Do It</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="./favicon.svg" type="image/x-icon" />
+    <!-- Remix Icon CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <nav class="navbar">
+          <a href="#">
+            <div class="logo">
+              <img src="./images/logo.png" alt="Nike logo" />
+              <span>Just Do It.</span>
+            </div>
+          </a>
+
+          <ul class="menu">
+            <a href="#home">
+              <li>Home</li>
+            </a>
+            <a href="#about">
+              <li>About</li>
+            </a>
+            <a href="#brands">
+              <li>Brands</li>
+            </a>
+            <a href="#more">
+              <li>More</li>
+            </a>
+            <a href="#contact">
+              <li>Contact</li>
+            </a>
+          </ul>
+
+          <div class="search-cart-profile">
+            <div>
+              <i class="ri-search-line"></i>
+              <input type="search" name="search" placeholder="Search" />
+            </div>
+            <div>
+              <i class="ri-shopping-bag-line cart"></i>
+              <span>0</span>
+            </div>
+            <img
+              class="profile"
+              src="./images/profile.avif"
+              alt="profileImage"
+            />
+            <div class="mobilemenu">
+              <i class="ri-more-2-fill"></i>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="shoppingCart" class="shoppingCart">
+        <div class="container">
+          <div class="shoppingCart-content">
+            <h2 class="scartTitle">Shopping Cart</h2>
+            <div class="shoppingCartItems">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Product</th>
+                    <th>Qnty</th>
+                    <th>Price</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Nike by M.S.Dhoni</td>
+                    <td>- 1 +</td>
+                    <td>₹18,000</td>
+                    <td>x</td>
+                  </tr>
+                  <tr>
+                    <td>Nike shocks by M.S.Dhoni</td>
+                    <td>- 1 +</td>
+                    <td>₹1,200</td>
+                    <td>x</td>
+                  </tr>
+                </tbody>
+              </table>
+
+              <div class="total">
+                <div class="totalwraper">
+                  <div class="coupon">
+                    <input type="text" name="coupon" id="coupon" placeholder="COUPON CODE" />
+                    <button class="btn couponBtn">Apply Coupon</button>
+                  </div>
+                  <div class="subTotal">
+                    <div class="subtotalBox">
+                      <p>Sub Total</p>
+                      <p>₹19,200</p>
+                    </div>
+                    <div class="subtotalBox">
+                      <p>Taxes(if applicable)</p>
+                      <p>₹3,456</p>
+                    </div>
+                    <div class="subtotalBox">
+                      <p>Discount</p>
+                      <p>₹0</p>
+                    </div>
+                    <div class="subtotalBox">
+                      <h4>Total</h4>
+                      <h4>₹22,656</h4>
+                    </div>
+                  </div>
+                </div>
+                <a href=""
+                  ><button class="btn btn-secondary payNowBtn">
+                    Pay Now ₹22,656
+                  </button></a
+                >
+
+                <div class="paymentLinks">
+                  <img
+                    src="https://static.vecteezy.com/system/resources/previews/029/899/733/non_2x/secure-payment-credit-card-icon-with-shield-secure-transaction-stock-illustration-vector.jpg"
+                    alt=""
+                  />
+                  <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/8/89/Razorpay_logo.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
+                    alt=""
+                  />
+                  <img
+                    src="https://cdn.vectorstock.com/i/500p/33/79/100-secure-grunge-badge-with-a-check-mark-label-vector-51493379.jpg"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <a href="index.html" class="continueShooping">
+            <i class="ri-arrow-left-s-line"></i>Continue Shopping</a
+          >
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
